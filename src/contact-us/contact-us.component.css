@@ -1,0 +1,17 @@
+form{
+    margin-left:10%;
+    margin-top: 1%;
+    text-align: center;
+    width: 80%;
+    background-color: aliceblue;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  mat-form-field{
+    width: 30%;
+    /* background-color: transparent; */
+  }
+  
+ 

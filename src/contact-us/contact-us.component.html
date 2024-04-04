@@ -1,0 +1,32 @@
+<app-navigation></app-navigation>
+
+<form (ngSubmit)="onSubmit(detail)" #detail='ngForm'>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput ngModel name="name" required>
+            <mat-hint>Enter Name</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput ngModel name="email" required email>
+            <mat-hint>Enter Valid Email</mat-hint>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-radio-group ngModel name="gender" *ngFor="let gender of genders" color="primary">
+            <mat-radio-button [value]="gender">
+                {{gender}}
+            </mat-radio-button>
+          </mat-radio-group>
+    </p>
+
+    <button type="submit" [disabled]="!detail.valid">submit</button>
+    <button type="reset" onclick="resetForn(detail)">reset</button>
+
+</form>
+
+<br><br>
+<app-footer></app-footer>

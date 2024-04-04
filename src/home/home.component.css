@@ -1,0 +1,63 @@
+.homehead{
+    margin-bottom: 20%;
+  }
+  
+  .showcase{
+    width: 90%;
+    margin: auto;
+  }
+  
+  .displaybox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controlbox {
+    display: flex;
+    direction: rtl;
+  }
+  
+  
+  .w-100{
+    padding: 5%;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: static;
+  }
+  
+  
+  .services {
+    text-align: center;
+  }
+  
+
+  .coverCard{
+    margin: auto;
+    border: 1px solid;
+    width: 90%;
+    border-radius: 20px;
+    height: inherit;
+    background-color: chartreuse;
+  }
+
+  .tagline{
+    padding: 50px;
+  }
+  
+  .Specialities {
+    text-align: center;
+  }
+  
+  
+  .description {
+    overflow: hidden;
+    display: inline;
+  }
+  
+  .innerIcons img {
+    width: 55px;
+  }
+  
