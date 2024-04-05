@@ -1,0 +1,12 @@
+.productCards ,img{
+    width:150px;
+    text-align: center;
+}
+
+.backdrop{
+    background-color: snow;
+}
+
+.productCards{
+    margin: auto;
+}
