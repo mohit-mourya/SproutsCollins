@@ -1,0 +1,24 @@
+.description{
+    text-align: center;
+}
+
+.filters p{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.counterbutton{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 30%;
+}

@@ -3,6 +3,16 @@
     text-align: center;
 }
 
+.filters{
+    display: flex;
+    justify-content: space-around;
+}
+.filters p{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 .backdrop{
     background-color: snow;
 }
